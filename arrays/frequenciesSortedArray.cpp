@@ -22,4 +22,4 @@ int main() {
     return 0;
 }
 
-// frequ for unsorted array ??
+// TODO: frequ for unsorted array 
