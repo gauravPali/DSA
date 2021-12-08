@@ -1,8 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
-// time complexity ->
-// void getSteps() {
-// }
+
 
 bool isLucky(int n) {
     static int itr = 2;
@@ -45,10 +43,6 @@ void subsets(string s, int l, string result) {
     subsets(s, l + 1, result);
 }
 
-int towerOfHanoi(n, char a, char b, char c, int steps) {
-    // return towerOfHanoi(n - 1, b, c, b, steps + 1);
-}
-
 /*
   23
         
@@ -64,17 +58,6 @@ int towerOfHanoi(n, char a, char b, char c, int steps) {
         B C     D EF 
 */
 
-void printWords(string a, string b, string res, int p, int q) {
-    res.push_back(a[p]);
-    for(int i=0;i<b.size();i++){
-        
-    }
-    res.push_back(b[q]);
-    printWords(a, b, res, );
-}
-
-void genWords(int a[], int n) {
-}
 
 int main() {
     freopen("../input.txt", "r", stdin);
@@ -99,9 +82,6 @@ int main() {
         // subsets(s, 0, res);
         // cout << "Subsets Generated"
         //  << "\n\n";
-
-        int n;
-        cin >> n;
     }
     return 0;
 }
